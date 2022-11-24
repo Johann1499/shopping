@@ -27,5 +27,32 @@
 .product-grid2 .title a{color:#303030}
 .product-grid2 .title a:hover{color:#3498db}
 .product-grid2 .price{color:#303030;font-size:15px}
+.product-image .pic-1{opacity:1;transition:all .5s}
+.product-grid:hover .product-image .pic-1{opacity:0}
+.product-image .pic-2{width:100%;height:100%;opacity:0;position:absolute;top:0;left:0;transition:all .5s}
+.product-grid:hover .product-image .pic-2{opacity:1}
+.fa-star,
+.fa-star-half{
+    color: yellowgreen;
+    padding: 3% 0;
+}
+
+#cart_count{
+    text-align: center;
+    padding: 0 0.9rem 0.1rem 0.9rem;
+    border-radius: 3rem;
+}
+
+.shopping-cart{
+    padding: 3% 0;
+}
+
+.cart-items + .cart-items{
+    padding: 2% 0;
+}
+
+.price-details h6{
+    padding: 3% 2%;
+}
 @media screen and (max-width:990px){.product-grid2{margin-bottom:30px}
 }
